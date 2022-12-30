@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ol.css">
+    <link rel="stylesheet" href="ol-layerswitcher.css" />
+    <link rel="stylesheet" href="my_map.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="header">
+        <h2>Selected Assets in the City of Greater Bendigo, Australia</h2>
+    </div>
+    <div id="js-map" class="map"></div>
+    <div id="sidebar" class="sidebar">
+        <div id="general_info" class="sidebar_panel side_top">
+            <h2>LAYER INFORMATION</h2>
+            <p>The datasets on this website are collections of geospatial data that has been compiled by the<a href="http://data.gov.au/"> Australian Government Public Data</a> for use in mapping applications and data analysis. <br> <br> The data show some selected assets, such as Preschools and Childcare Centres, Recreation Playspaces, Public Roads and Garbage Collection Zones in the City of Greater Bendigo, Australia. <br>It is meant to be used to help users visualize and understand some of the assets in the city. <br> <br>The main characteristics and basic information of the different assets are presented below: </p>
+        </div>
+        <div id="route_info" class="sidebar_panel side_bottom">
+                <div>
+                    <h3>Preschools and Childhood Centers </h3>
+
+                    <button type="button" class="collapsible">Summary</button>
+                    <div class="content">
+                      <p>This dataset indicates Preschools and Childcare Centres within the City of Greater Bendigo. The data is from <a href="https://data.gov.au/data/dataset/652dd8d6-5dcf-475c-8dbb-a32ad5dfc9f8">the open data of the Local Government</a>. <br> It was published on 21st November, 2018 and updated on 26th December, 2022. <br> Preschools and Childhood Centers are light red point markers on the map.   </p>
+                    </div>   
+                </div>
+                <div>
+                    <h3>Recreation Playspaces</h3>
+
+                    <button type="button" class="collapsible">Summary</button>
+                    <div class="content">
+                      <p>This dataset indicates Public Playspaces within the City of Greater Bendigo. The data is from <a href="https://data.gov.au/data/dataset/dfcd7012-576e-40ab-825b-67d5140a4e63">the open data of the Local Government</a>. <br> It was published on 17th September, 2017 and updated on 26th December, 2022. <br> Recreation Playspaces are red point markers on the map.</p>
+                    </div>   
+                </div>
+                <div>
+                    <h3> Public Roads  </h3>
+
+                    <button type="button" class="collapsible">Summary</button>
+                    <div class="content">
+                      <p>This dataset indicates Public roads in respect of which the City of Greater Bendigo is the Coordinating Road Authority. The data is from <a href="https://data.gov.au/data/dataset/52a242bd-efc7-4412-86ac-fd486d74bae6">the open data of the Local Government</a>. <br> It was published on 31st August, 2017 and updated on 26th December, 2022. <br> Public Roads are blue  lines on the map.</p>
+                    </div>   
+                </div>
+                <div>
+                    <h3> Garbage Collection Zones </h3>
+
+                    <button type="button" class="collapsible">Summary</button>
+                    <div class="content">
+                      <p>This dataset indicates Waste collection zones within the City of Greater Bendigo, including garbage, recycling, organics and commercial collection. The data is from <a href="https://data.gov.au/data/dataset/c2f141ec-a3ac-4b42-a397-ba5ed0c5da46">the open data of the Local Government</a>. <br> It was published on 21st July, 2016 and updated on 26th December, 2022. <br> Garbage Collection Zones are multicoloured areas on the map. <br><br>
+                        Green area is collected on Fridays, <br>
+                        Yellow area is collected on Wednesdays, <br>
+                        Orange area is collected on Thursdays, <br>
+                        Blue area is collected on Tuesdays and <br>
+                        Purple area is collected on Tuesdays</p>
+                    </div>   
+                </div>
+        </div>
+    </div>
+    <script src="ol.js"></script>
+    <script src="ol-layerswitcher.js"></script>
+    <script src="my_map.js"></script>
+</body>
+</html>
+
